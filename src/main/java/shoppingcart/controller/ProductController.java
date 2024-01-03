@@ -24,9 +24,10 @@ public class ProductController {
     @RequestMapping(method = GET)
     public String showProducts(Model model){
         List<ProductEntity> productEntityList = (List<ProductEntity>) productRepository.findAll();
+        System.out.println(productEntityList.size());
         model.addAttribute("productList", productEntityList);
 
-        return "ProductList";
+        return "order/ProductList";
     }
 
 }

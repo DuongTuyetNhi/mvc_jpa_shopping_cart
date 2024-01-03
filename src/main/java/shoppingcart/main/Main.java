@@ -23,8 +23,8 @@ public class Main {
     public static void main(String[] args) {
         //createNewOrderDetailsEntryWithNewOrder();
 //        createNewOrderDetailsEntry();
-//        findAll();
-        findByProductId(5);
+        findAll();
+//        findByProductId(5);
     }
 
     // Tạo một OrderDetailsEntity mới
